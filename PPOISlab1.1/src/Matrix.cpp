@@ -1,4 +1,4 @@
-#include "../include/my_matrix.hpp"
+#include "../include/Matrix.hpp"
 
 // Вспомогательные приватные методы
 void Matrix::clear() {
