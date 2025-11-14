@@ -130,14 +130,14 @@ public:
      * @param element Элемент для проверки
      * @return true если элемент принадлежит множеству
      */
-    bool operator[](const std::string& element) const { return contains(element); }
+    bool operator[](const std::string& element) const ;
     
     /**
      * @brief Оператор проверки принадлежности подмножества
      * @param subset Подмножество для проверки
      * @return true если подмножество принадлежит множеству
      */
-    bool operator[](const CantorSet& subset) const { return contains(subset); }
+    bool operator[](const CantorSet& subset) const ;
     
     /**
      * @brief Добавляет элемент в множество

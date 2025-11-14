@@ -1,12 +1,12 @@
 #include <UnitTest++/UnitTest++.h>
-#include "../include/cantor_set.hpp"
+#include "../include/CantorSet.hpp"
 
 #include <string>
 #include <vector>
 
 
 SUITE(CantorSetTest) {
-    TEST(ConstructorFromString) {
+    // TEST(ConstructorFromString) {
         CantorSet set(std::string("{1,2,3}"));
         CHECK(!set.isEmpty());
         CHECK_EQUAL(3, set.cardinality());

@@ -165,6 +165,9 @@ bool CantorSet::contains(const CantorSet& subset) const {
     return subsets.contains(subset);
 }
 
+bool CantorSet::operator[](const std::string& element) const { return contains(element); }
+
+bool CantorSet::operator[](const CantorSet& subset) const { return contains(subset); }
 // ============ ХАРАКТЕРИСТИКИ ============
 
 bool CantorSet::isEmpty() const {
