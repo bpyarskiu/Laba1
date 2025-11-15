@@ -1,5 +1,5 @@
 #include <UnitTest++/UnitTest++.h>
-#include "../include/my_matrix.hpp"
+#include "../include/Matrix.hpp"
 
 TEST(MatrixDefaultConstructor) {
     Matrix m;
